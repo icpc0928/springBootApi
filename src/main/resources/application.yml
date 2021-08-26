@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+
+
+logging:
+  level:
+    root: info
+    com.leo: debug
+  file:
+    name: logs/debug.log
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
