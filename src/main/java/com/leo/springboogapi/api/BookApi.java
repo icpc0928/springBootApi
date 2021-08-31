@@ -40,7 +40,7 @@ public class BookApi {
     }
 
     @PostMapping("/books")
-    public ResponseEntity<?> saveBook(Book book){
+    public ResponseEntity<?> saveBook(@RequestBody Book book){   //默認使用Form-data 傳輸, 但前端可能會使用json格式,所以使用 @RequestBody 接收JSON對象
         Book book1 = bookService.saveBook(book);
         //新增成功返回201(CREATED)
         return new ResponseEntity<Object>(book1, HttpStatus.CREATED);
