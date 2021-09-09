@@ -4,12 +4,17 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.Length;
 
 @Entity
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //@GenerationValue => 會自動迭代上去 , 多定義IDENTITY=>解決若原先資料表主鍵已經有值,會無法自動取得正確的值(雖會自動遞增,但傻傻的遞增)
     private long id;
+
 
     private String author;
     private String description;
