@@ -1,7 +1,7 @@
-package com.leo.springboogapi.dto;
+package com.leo.springbootapi.dto;
 
-import com.leo.springboogapi.domain.Book;
-import com.leo.springboogapi.util.CustomBeanUtils;
+import com.leo.springbootapi.domain.Book;
+import com.leo.springbootapi.util.CustomBeanUtils;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.beans.BeanUtils;
 

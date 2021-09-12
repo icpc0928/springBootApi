@@ -1,4 +1,4 @@
-package com.leo.springboogapi;
+package com.leo.springbootapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

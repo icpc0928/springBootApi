@@ -1,10 +1,10 @@
-package com.leo.springboogapi.api;
+package com.leo.springbootapi.api;
 
-import com.leo.springboogapi.domain.Book;
-import com.leo.springboogapi.dto.BookDTO;
-import com.leo.springboogapi.exception.InvalidRequestException;
-import com.leo.springboogapi.exception.NotFoundException;
-import com.leo.springboogapi.service.BookService;
+import com.leo.springbootapi.domain.Book;
+import com.leo.springbootapi.dto.BookDTO;
+import com.leo.springbootapi.exception.InvalidRequestException;
+import com.leo.springbootapi.exception.NotFoundException;
+import com.leo.springbootapi.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

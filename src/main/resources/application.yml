@@ -1,15 +1,6 @@
 server:
   port: 8888
 
-
-
-logging:
-  level:
-    root: info
-    com.leo: debug
-  file:
-    name: logs/debug.log
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -20,4 +11,19 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-debug: true
+  profiles:
+    active: develop
+
+#debug: true
+
+#級別等級 trace < info < warn < error
+#設定日誌級別   root:info 全部的log會顯示info級別以上的 ,也可個別針對套件/路徑 做個別等級
+#logging:
+#  level:
+#    root: info
+#    org.springframework.web: warn
+#    com.leo: debug
+#  file:
+#    name: logs/debug.log
+logging:
+  config: classpath:logback-custom.xml

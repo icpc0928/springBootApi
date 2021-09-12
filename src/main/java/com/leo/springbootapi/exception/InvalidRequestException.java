@@ -1,4 +1,4 @@
-package com.leo.springboogapi.exception;
+package com.leo.springbootapi.exception;
 
 import org.springframework.validation.Errors;
 

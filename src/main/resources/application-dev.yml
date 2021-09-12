@@ -1,0 +1,11 @@
+
+logging:
+  level:
+    root: debug
+    com.leo: debug
+  file:
+    name: devlog/debug.log
+  pattern:
+#    console: '%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg %n'
+#  config: classpath:logbak-spring.xml
+

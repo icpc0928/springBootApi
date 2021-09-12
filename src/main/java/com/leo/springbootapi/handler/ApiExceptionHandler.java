@@ -1,10 +1,10 @@
-package com.leo.springboogapi.handler;
+package com.leo.springbootapi.handler;
 
-import com.leo.springboogapi.exception.InvalidRequestException;
-import com.leo.springboogapi.exception.NotFoundException;
-import com.leo.springboogapi.resource.ErrorResource;
-import com.leo.springboogapi.resource.FieldResource;
-import com.leo.springboogapi.resource.InvalidErrorResource;
+import com.leo.springbootapi.exception.InvalidRequestException;
+import com.leo.springbootapi.exception.NotFoundException;
+import com.leo.springbootapi.resource.ErrorResource;
+import com.leo.springbootapi.resource.FieldResource;
+import com.leo.springbootapi.resource.InvalidErrorResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;

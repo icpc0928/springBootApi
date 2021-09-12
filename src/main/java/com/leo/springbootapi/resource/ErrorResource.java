@@ -1,4 +1,4 @@
-package com.leo.springboogapi.resource;
+package com.leo.springbootapi.resource;
 
 public class ErrorResource {
     private String message;

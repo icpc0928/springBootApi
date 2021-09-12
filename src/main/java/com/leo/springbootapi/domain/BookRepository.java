@@ -1,4 +1,4 @@
-package com.leo.springboogapi.domain;
+package com.leo.springbootapi.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

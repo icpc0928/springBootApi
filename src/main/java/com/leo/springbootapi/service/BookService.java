@@ -1,6 +1,6 @@
-package com.leo.springboogapi.service;
+package com.leo.springbootapi.service;
 
-import com.leo.springboogapi.domain.Book;
+import com.leo.springbootapi.domain.Book;
 
 import java.util.List;
 

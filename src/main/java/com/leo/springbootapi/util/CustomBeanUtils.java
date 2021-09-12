@@ -1,4 +1,4 @@
-package com.leo.springboogapi.util;
+package com.leo.springbootapi.util;
 
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;

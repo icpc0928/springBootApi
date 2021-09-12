@@ -1,7 +1,7 @@
-package com.leo.springboogapi.service;
+package com.leo.springbootapi.service;
 
-import com.leo.springboogapi.domain.Book;
-import com.leo.springboogapi.domain.BookRepository;
+import com.leo.springbootapi.domain.Book;
+import com.leo.springbootapi.domain.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

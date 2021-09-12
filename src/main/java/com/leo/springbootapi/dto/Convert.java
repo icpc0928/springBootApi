@@ -1,4 +1,4 @@
-package com.leo.springboogapi.dto;
+package com.leo.springbootapi.dto;
 
 public interface Convert<S, T> {
     //S:源 T: 目標對象

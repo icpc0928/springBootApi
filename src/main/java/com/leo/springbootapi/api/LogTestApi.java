@@ -1,4 +1,4 @@
-package com.leo.springboogapi.api;
+package com.leo.springbootapi.api;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

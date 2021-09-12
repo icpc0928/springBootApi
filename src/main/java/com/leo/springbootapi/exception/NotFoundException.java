@@ -1,4 +1,4 @@
-package com.leo.springboogapi.exception;
+package com.leo.springbootapi.exception;
 
 public class NotFoundException extends RuntimeException{
     public NotFoundException(String message) {
