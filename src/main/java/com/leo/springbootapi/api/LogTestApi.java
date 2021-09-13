@@ -17,12 +17,12 @@ public class LogTestApi {
         String email = "icpc@yahoo.com";
 
 
-        logger.info("info --- log");
-        logger.warn("warn --- log");
-        logger.error("error --- log");
-        logger.debug("debug --- log");
-        logger.trace("trace --- log");
-        logger.info("name: {}, email: {}", name, email);
+        logger.info("------- log ---------");
+//        logger.warn("warn --- log");
+//        logger.error("error --- log");
+//        logger.debug("debug --- log");
+//        logger.trace("trace --- log");
+//        logger.info("name: {}, email: {}", name, email);
         return "logtest";
     }
 }

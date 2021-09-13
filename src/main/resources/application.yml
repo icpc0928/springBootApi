@@ -12,7 +12,7 @@ spring:
       ddl-auto: update
     show-sql: true
   profiles:
-    active: develop
+    active: dev
 
 #debug: true
 
@@ -25,5 +25,5 @@ spring:
 #    com.leo: debug
 #  file:
 #    name: logs/debug.log
-logging:
-  config: classpath:logback-custom.xml
+#logging:
+#  config: classpath:logback-spring.xml
